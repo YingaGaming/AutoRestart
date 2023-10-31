@@ -1,0 +1,35 @@
+# ======================================== NOTE ==========================================
+# AutoRestart assumes that your server automatically restarts after it shuts down
+# 
+# You can handle this via a loop in your start script, or with server management software
+#
+# Example (bash):
+# ----------------------------
+# while :
+# do
+#     java -jar server.jar
+# done
+# ----------------------------
+# ========================================================================================
+
+# The time at which a restart should be initiated (24h)
+time: '04:00:00'
+
+# Notification Content
+title: '&5&lServer Restart'
+subtitle: '&c&l{REMAINING}'
+
+# When notifications should be sent, in seconds (before the shutdown)
+notifications:
+  - 60
+  - 30
+  - 10
+  - 9
+  - 8
+  - 7
+  - 6
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1

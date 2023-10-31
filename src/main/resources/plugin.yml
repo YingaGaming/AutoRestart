@@ -1,0 +1,5 @@
+name: AutoRestart
+version: 1.0.0
+description: Automatically restarts the server at a configured time.
+main: games.yinga.AutoRestart
+author: xenorio
